@@ -8,11 +8,11 @@ dotenv.config();
 let PORT = process.env.PORT || 5000;
 
 app.get("/",(req,res)=>{
-    return res.status(200).json({message:"hello saurabh how are you?"})
+    return res.status(200).json({message:"hello how are you ?"})
 })
 
 app.get("/health",(req,res)=>{
-    return res.status(200).json({message:"all is good"})
+    return res.status(200).json({message:"all is good and well"})
 })
 
     app.listen(PORT,()=>{
